@@ -1,0 +1,19 @@
+<div class="card employee-card bg-success m-2" style="width: 18rem;">
+    <div class="card-header">
+        <h2 class="card-title">{{ name }}</h2>
+        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>{{ role }}</h3>
+    </div>
+    <div class="card-body" style="background-color: rgb(61, 61, 61);">
+        <ul class="list-group">
+            <li class="list-group-item" style="background-color: rgb(158, 154, 151);">
+                ID: {{ id }}
+            </li>
+            <li class="list-group-item" style="background-color: rgb(235, 209, 189);">
+                Email: <a href="mailto:{{ email }}">{{ email }}</a>
+            </li>
+            <li class="list-group-item" style="background-color: rgb(123, 187, 175);">
+                Office number: {{ officeNumber }}
+            </li>
+        </ul>
+    </div>
+</div>
